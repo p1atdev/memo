@@ -1,0 +1,6 @@
+framework module Pods_SuperMemoTests {
+  umbrella header "Pods-SuperMemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

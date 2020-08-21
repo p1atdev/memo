@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "589E12FB-5BFB-4C23-97EE-04FC7BD58CEE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04A1F8F6-838C-468D-9A69-D2771A7059E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SuperMemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "createAccount(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04A1F8F6-838C-468D-9A69-D2771A7059E3 - e5dd8204e1ceb7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SuperMemo.ViewController.createAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "SuperMemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuteiei/Library/Autosave%20Information/SuperMemo/SuperMemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "04A1F8F6-838C-468D-9A69-D2771A7059E3 - a6ff3c0384884848"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SuperMemo.ViewController.createAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "SuperMemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuteiei/Library/Autosave%20Information/SuperMemo/SuperMemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "173">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

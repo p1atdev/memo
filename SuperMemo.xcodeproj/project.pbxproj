@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA8369524EE541000CF8CC7 /* plusButton.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8369424EE541000CF8CC7 /* plusButton.pdf */; };
+		3AA8369724EE57AA00CF8CC7 /* MemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8369624EE57AA00CF8CC7 /* MemosViewController.swift */; };
+		3AA8369924EE57BC00CF8CC7 /* MemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8369824EE57BC00CF8CC7 /* MemoTableViewController.swift */; };
+		3AA8369B24EE57CA00CF8CC7 /* EditMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8369A24EE57CA00CF8CC7 /* EditMemoViewController.swift */; };
+		3AA836A124EEC07200CF8CC7 /* plusbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8369E24EEC06F00CF8CC7 /* plusbutton@3x.png */; };
+		3AA836A224EEC07200CF8CC7 /* plusbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8369F24EEC07100CF8CC7 /* plusbutton.png */; };
+		3AA836A324EEC07200CF8CC7 /* plusbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA836A024EEC07200CF8CC7 /* plusbutton@2x.png */; };
 		3AFBD56E24ED4DC100B10A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD56D24ED4DC100B10A1B /* AppDelegate.swift */; };
 		3AFBD57024ED4DC100B10A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD56F24ED4DC100B10A1B /* SceneDelegate.swift */; };
 		3AFBD57224ED4DC100B10A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD57124ED4DC100B10A1B /* ViewController.swift */; };
@@ -15,6 +22,10 @@
 		3AFBD57A24ED4DC400B10A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD57824ED4DC400B10A1B /* LaunchScreen.storyboard */; };
 		3AFBD58524ED4DC400B10A1B /* SuperMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD58424ED4DC400B10A1B /* SuperMemoTests.swift */; };
 		3AFBD59024ED4DC400B10A1B /* SuperMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBD58F24ED4DC400B10A1B /* SuperMemoUITests.swift */; };
+		3AFBD59E24ED4E0500B10A1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBD59D24ED4E0500B10A1B /* GoogleService-Info.plist */; };
+		B0A365F87A8BA969FF892921 /* Pods_SuperMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A64EE03334783CECBE6BB29 /* Pods_SuperMemo.framework */; };
+		B567D9D8B2478743F2DB2A88 /* Pods_SuperMemo_SuperMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133DC9E9F0D60B27F14DDE76 /* Pods_SuperMemo_SuperMemoUITests.framework */; };
+		F311951F36910FD7D679A0B2 /* Pods_SuperMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A52726F5BE32D4065CEAB9 /* Pods_SuperMemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AF3BC642AE169A3A74E38C /* Pods-SuperMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMemo.debug.xcconfig"; path = "Target Support Files/Pods-SuperMemo/Pods-SuperMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0A64EE03334783CECBE6BB29 /* Pods_SuperMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		133DC9E9F0D60B27F14DDE76 /* Pods_SuperMemo_SuperMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMemo_SuperMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A52726F5BE32D4065CEAB9 /* Pods_SuperMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA8369424EE541000CF8CC7 /* plusButton.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = plusButton.pdf; sourceTree = "<group>"; };
+		3AA8369624EE57AA00CF8CC7 /* MemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemosViewController.swift; sourceTree = "<group>"; };
+		3AA8369824EE57BC00CF8CC7 /* MemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewController.swift; sourceTree = "<group>"; };
+		3AA8369A24EE57CA00CF8CC7 /* EditMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoViewController.swift; sourceTree = "<group>"; };
+		3AA8369E24EEC06F00CF8CC7 /* plusbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plusbutton@3x.png"; sourceTree = "<group>"; };
+		3AA8369F24EEC07100CF8CC7 /* plusbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusbutton.png; sourceTree = "<group>"; };
+		3AA836A024EEC07200CF8CC7 /* plusbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plusbutton@2x.png"; sourceTree = "<group>"; };
 		3AFBD56A24ED4DC100B10A1B /* SuperMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFBD56D24ED4DC100B10A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFBD56F24ED4DC100B10A1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,12 @@
 		3AFBD58B24ED4DC400B10A1B /* SuperMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFBD58F24ED4DC400B10A1B /* SuperMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMemoUITests.swift; sourceTree = "<group>"; };
 		3AFBD59124ED4DC400B10A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFBD59D24ED4E0500B10A1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47B38A3E975DCACF38A6B5F8 /* Pods-SuperMemo-SuperMemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMemo-SuperMemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE9E6074CBAFA36A23036C2 /* Pods-SuperMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMemo.release.xcconfig"; path = "Target Support Files/Pods-SuperMemo/Pods-SuperMemo.release.xcconfig"; sourceTree = "<group>"; };
+		6AE328F175214E428A351FB5 /* Pods-SuperMemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMemoTests.release.xcconfig"; path = "Target Support Files/Pods-SuperMemoTests/Pods-SuperMemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CAF38961C5CDD439098B90C /* Pods-SuperMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SuperMemoTests/Pods-SuperMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD092010F04B429312795922 /* Pods-SuperMemo-SuperMemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMemo-SuperMemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A365F87A8BA969FF892921 /* Pods_SuperMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F311951F36910FD7D679A0B2 /* Pods_SuperMemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B567D9D8B2478743F2DB2A88 /* Pods_SuperMemo_SuperMemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AA8369324EE53F900CF8CC7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8369424EE541000CF8CC7 /* plusButton.pdf */,
+				3AA8369F24EEC07100CF8CC7 /* plusbutton.png */,
+				3AA836A024EEC07200CF8CC7 /* plusbutton@2x.png */,
+				3AA8369E24EEC06F00CF8CC7 /* plusbutton@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		3AFBD56124ED4DC100B10A1B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				3AFBD58324ED4DC400B10A1B /* SuperMemoTests */,
 				3AFBD58E24ED4DC400B10A1B /* SuperMemoUITests */,
 				3AFBD56B24ED4DC100B10A1B /* Products */,
+				CF832F6D14203D7926F26CAD /* Pods */,
+				8E72E25FF434D57EB4939686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +146,15 @@
 				3AFBD56D24ED4DC100B10A1B /* AppDelegate.swift */,
 				3AFBD56F24ED4DC100B10A1B /* SceneDelegate.swift */,
 				3AFBD57124ED4DC100B10A1B /* ViewController.swift */,
+				3AA8369624EE57AA00CF8CC7 /* MemosViewController.swift */,
+				3AA8369824EE57BC00CF8CC7 /* MemoTableViewController.swift */,
+				3AA8369A24EE57CA00CF8CC7 /* EditMemoViewController.swift */,
 				3AFBD57324ED4DC100B10A1B /* Main.storyboard */,
 				3AFBD57624ED4DC400B10A1B /* Assets.xcassets */,
 				3AFBD57824ED4DC400B10A1B /* LaunchScreen.storyboard */,
 				3AFBD57B24ED4DC400B10A1B /* Info.plist */,
+				3AFBD59D24ED4E0500B10A1B /* GoogleService-Info.plist */,
+				3AA8369324EE53F900CF8CC7 /* images */,
 			);
 			path = SuperMemo;
 			sourceTree = "<group>";
@@ -128,6 +177,29 @@
 			path = SuperMemoUITests;
 			sourceTree = "<group>";
 		};
+		8E72E25FF434D57EB4939686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A64EE03334783CECBE6BB29 /* Pods_SuperMemo.framework */,
+				133DC9E9F0D60B27F14DDE76 /* Pods_SuperMemo_SuperMemoUITests.framework */,
+				18A52726F5BE32D4065CEAB9 /* Pods_SuperMemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF832F6D14203D7926F26CAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01AF3BC642AE169A3A74E38C /* Pods-SuperMemo.debug.xcconfig */,
+				4CE9E6074CBAFA36A23036C2 /* Pods-SuperMemo.release.xcconfig */,
+				47B38A3E975DCACF38A6B5F8 /* Pods-SuperMemo-SuperMemoUITests.debug.xcconfig */,
+				AD092010F04B429312795922 /* Pods-SuperMemo-SuperMemoUITests.release.xcconfig */,
+				8CAF38961C5CDD439098B90C /* Pods-SuperMemoTests.debug.xcconfig */,
+				6AE328F175214E428A351FB5 /* Pods-SuperMemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFBD59424ED4DC400B10A1B /* Build configuration list for PBXNativeTarget "SuperMemo" */;
 			buildPhases = (
+				E8F65A97344E8F3F32E2D52F /* [CP] Check Pods Manifest.lock */,
 				3AFBD56624ED4DC100B10A1B /* Sources */,
 				3AFBD56724ED4DC100B10A1B /* Frameworks */,
 				3AFBD56824ED4DC100B10A1B /* Resources */,
+				B00E809BACDD923D19F545CA /* [CP] Embed Pods Frameworks */,
+				8B7D2250797B0107B535771C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFBD59724ED4DC400B10A1B /* Build configuration list for PBXNativeTarget "SuperMemoTests" */;
 			buildPhases = (
+				3E7FAE11875C567E7D06E03A /* [CP] Check Pods Manifest.lock */,
 				3AFBD57C24ED4DC400B10A1B /* Sources */,
 				3AFBD57D24ED4DC400B10A1B /* Frameworks */,
 				3AFBD57E24ED4DC400B10A1B /* Resources */,
@@ -170,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFBD59A24ED4DC400B10A1B /* Build configuration list for PBXNativeTarget "SuperMemoUITests" */;
 			buildPhases = (
+				C39029E5FE5D6D5383C2B6B4 /* [CP] Check Pods Manifest.lock */,
 				3AFBD58724ED4DC400B10A1B /* Sources */,
 				3AFBD58824ED4DC400B10A1B /* Frameworks */,
 				3AFBD58924ED4DC400B10A1B /* Resources */,
+				F40A4A172555AABC9174C442 /* [CP] Embed Pods Frameworks */,
+				DB72D462EA533FA21A79E6EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +310,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA836A224EEC07200CF8CC7 /* plusbutton.png in Resources */,
 				3AFBD57A24ED4DC400B10A1B /* LaunchScreen.storyboard in Resources */,
+				3AFBD59E24ED4E0500B10A1B /* GoogleService-Info.plist in Resources */,
 				3AFBD57724ED4DC400B10A1B /* Assets.xcassets in Resources */,
+				3AA8369524EE541000CF8CC7 /* plusButton.pdf in Resources */,
 				3AFBD57524ED4DC100B10A1B /* Main.storyboard in Resources */,
+				3AA836A324EEC07200CF8CC7 /* plusbutton@2x.png in Resources */,
+				3AA836A124EEC07200CF8CC7 /* plusbutton@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +337,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E7FAE11875C567E7D06E03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperMemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7D2250797B0107B535771C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo/Pods-SuperMemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo/Pods-SuperMemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperMemo/Pods-SuperMemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B00E809BACDD923D19F545CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo/Pods-SuperMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo/Pods-SuperMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperMemo/Pods-SuperMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39029E5FE5D6D5383C2B6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperMemo-SuperMemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB72D462EA533FA21A79E6EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F65A97344E8F3F32E2D52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40A4A172555AABC9174C442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperMemo-SuperMemoUITests/Pods-SuperMemo-SuperMemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AFBD56624ED4DC100B10A1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA8369924EE57BC00CF8CC7 /* MemoTableViewController.swift in Sources */,
+				3AA8369724EE57AA00CF8CC7 /* MemosViewController.swift in Sources */,
 				3AFBD57224ED4DC100B10A1B /* ViewController.swift in Sources */,
 				3AFBD56E24ED4DC100B10A1B /* AppDelegate.swift in Sources */,
+				3AA8369B24EE57CA00CF8CC7 /* EditMemoViewController.swift in Sources */,
 				3AFBD57024ED4DC100B10A1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +657,14 @@
 		};
 		3AFBD59524ED4DC400B10A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01AF3BC642AE169A3A74E38C /* Pods-SuperMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Q2A6VDAQN;
 				INFOPLIST_FILE = SuperMemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +678,14 @@
 		};
 		3AFBD59624ED4DC400B10A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE9E6074CBAFA36A23036C2 /* Pods-SuperMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Q2A6VDAQN;
 				INFOPLIST_FILE = SuperMemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +699,7 @@
 		};
 		3AFBD59824ED4DC400B10A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAF38961C5CDD439098B90C /* Pods-SuperMemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +722,7 @@
 		};
 		3AFBD59924ED4DC400B10A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE328F175214E428A351FB5 /* Pods-SuperMemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +745,7 @@
 		};
 		3AFBD59B24ED4DC400B10A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B38A3E975DCACF38A6B5F8 /* Pods-SuperMemo-SuperMemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +766,7 @@
 		};
 		3AFBD59C24ED4DC400B10A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD092010F04B429312795922 /* Pods-SuperMemo-SuperMemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
