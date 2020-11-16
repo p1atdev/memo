@@ -150,7 +150,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             loginAuth(email: email!, password: password!)
             
+        }else{
+            
+            print("ERROR")
+            
         }
+        
+        print("login button")
         
     }
     
